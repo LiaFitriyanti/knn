@@ -145,4 +145,5 @@ Menggunakan algoritma K-Nearest Neighbors dengan jumlah titik k (3), didapatkan 
 
 ## Deployment
 https://fetal-health.streamlit.app/
+
 ![image](tampilanstreamlitknn.png)
