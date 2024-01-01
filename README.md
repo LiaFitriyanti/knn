@@ -141,7 +141,14 @@ knn.score(X_test,y_test)
 ```
 
 ## Evaluation
-Menggunakan algoritma K-Nearest Neighbors dengan jumlah titik k (3), didapatkan hasil akurasi sebesar 0.8432. 
+Matriks evaluasi yang digunakan dari dataset ini yaitu Confusion Matrix :
+```python
+cnf_matrix = metrics.confusion_matrix(y_test, y_pred)
+p = sns.heatmap(pd.DataFrame(cnf_matrix), annot=True, cmap="YlGnBu" ,fmt='g')
+plt.title('Confusion matrix', y=1.1)
+plt.ylabel('Actual label')
+plt.xlabel('Predicted label')
+```
 
 ## Deployment
 https://fetal-health.streamlit.app/
