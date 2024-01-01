@@ -149,6 +149,7 @@ plt.title('Confusion matrix', y=1.1)
 plt.ylabel('Actual label')
 plt.xlabel('Predicted label')
 ```
+![image](matrix.png)
 
 ## Deployment
 https://fetal-health.streamlit.app/
